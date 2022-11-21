@@ -15,7 +15,7 @@ import time
 
 matplotlib.use('agg')
 
-API_skey= "VMC5STGR6DLF0PPN"  #os.environ("API_skey")   #stock market key
+API_skey= "xxxxx"  #os.environ("API_skey")   #stock market key
 STOCK_Endpoint = "https://www.alphavantage.co/query?"
 
 application = Flask(__name__)
