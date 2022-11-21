@@ -1,0 +1,23 @@
+{% import "bootstrap/wtf.html" as wtf %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <style>
+body {
+  background-image: url('static/img/Image1.jpg');
+}
+</style>
+
+</head>
+<body>
+<h2>Welcome to the stock tracker. Please enter your ticker or symbol </h2>
+
+
+<form method="post">
+{{ form.csrf_token }}
+    </form>
+  {{ wtf.quick_form(form) }}
+
+</body>
+</html>
